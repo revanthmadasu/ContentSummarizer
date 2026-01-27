@@ -1,0 +1,22 @@
+Install dependencies:
+pip install fastapi uvicorn PyPDF2
+Run the server:
+uvicorn server:app --reload
+
+Plan:
+
+PDF
+ ↓
+Text extraction
+ ↓
+Chunking
+ ↓
+Embeddings
+ ↓
+Vector DB (FAISS / Chroma)
+ ↓
+Retriever (top-k chunks)
+ ↓
+Gemma-3 (LLM)
+ ↓
+Summary / Insta captions / scripts
