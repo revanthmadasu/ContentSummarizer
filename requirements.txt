@@ -4,3 +4,4 @@ PyPDF2
 transformers
 torch
 chromadb
+sentence-transformers
