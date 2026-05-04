@@ -20,7 +20,7 @@ def test_real_book():
     collection_name = "monk_who_sold_ferrari_collection"
     summarizer.store_in_chromadb(chunks, embeddings, collection_name)
 
-    top_chunks = summarizer.retrieve_chunks_from_chromadb("What is the main lesson from the book?", collection_name, top_k=3)
+    top_chunks = summarizer.retrieve_chunks_from_chromadb("Explain chapter 1", collection_name, top_k=10)
 
     print(top_chunks)
     with open("books/summarized_monk_who_sold_ferrari.txt", "w", encoding="utf-8") as out_file:
