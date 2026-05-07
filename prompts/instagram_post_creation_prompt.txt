@@ -1,3 +1,0 @@
-Transform this book insight into an engaging Instagram post: {{ $json.title }}.
-Content: {{ $json.concepts[0]}}
-Generate an image from this post. Specify the keyPoints, set the background theme using theme field. Specify action items in bold.
