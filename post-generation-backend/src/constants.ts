@@ -1,0 +1,1 @@
+export const JWT_SECRET = "Random secret store it in a secret service or vault";

@@ -7,3 +7,14 @@ Summarization:
 
 User uploads pdf, pdf is split into chunks and is forwarded to LLM.
 LLM should generate summaries of concepts or parts.
+
+
+# Posts Backend
+
+start mongo db -
+
+dev environment on mac ==============================
+brew services start mongodb/brew/mongodb-community@8.0
+or
+mongod --config /opt/homebrew/etc/mongod.conf --fork
+=====================================================
